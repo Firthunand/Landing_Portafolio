@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap 5.3-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!--Bootstrap icon 1.10.3-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap"
+        rel="stylesheet">
+
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+
+    <!--Mis estilos-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Landing Portafolio</title>
+</head>
+
+<body>
+    <!--BARRA DE NAVEGACION-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white fs-3" href="#">Fernando De La Barra</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-lg-4">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Acerca de Mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#trabajos">Mis desafios</a>
+                    </li>
+                </ul>
+                <a class="btn-custom ms-lg-4" href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--SECCION HEADER CON IMAGEN-->
+    <header class="wave" id="inicio">
+        <div class="container">
+            <div class="row  align-items-center">
+                <div class="col-md-6 text-white mt-1 ms-md-5 text-center-xs" style="z-index: 1;">
+                    <h1 class="fw-normal">INGENIERO INFORMÁTICO</h1>
+                    <p>Egresado de IP DuocUC y del Bootcamp de desarrollo de aplicaciones full Stack JavaScript en donde
+                        profundice mis conocimientos en el area del desarrollo web . </p>
+                </div>
+                <div class="col ms-md-6 mt-1 mb-md-0 text-center-lg" style="z-index: 1;">
+                    <img class="img-fluid" width="480" src="./assets/img/gummy-coding.svg">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--ACERCA DE MI-->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Acerca de mi</h2>
+            </div>
+            <div class="row mb-5">
+                <div class="col-lg-6">
+                    <div class="d-flex member">
+                        <div class="ps-4">
+                            <h4>Perfil</h4>
+                            <p>Ing. Informático capacitado para realizar labores de levantamiento y análisis de
+                                requerimientos, cuento con experiencia en proyectos de desarrollo de software. He
+                                trabajado con lenguajes de programación como JavaScript y Python, he adquirido
+                                conocimientos en bases de datos relacionales y en metodologías agiles de desarrollo como
+                                Scrum.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="d-flex member">
+                        <div class="ps-4">
+                            <h4>Fortalezas</h4>
+                            <p>Mis mayores fortalezas son mi capacidad de resolución de problemas y adaptación. soy una
+                                persona proactiva, analítica y lógica, lo que me ha permitido tomar decisiones acertadas
+                                y trabajar de manera eﬁciente en situaciones de alta presión.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!--MIS SERVICIOS EN CONSTRUCCION-->
+    <section>
+
+    </section>
+
+    <!--MI PORTAFOLIO-->
+    <!--------------------SECCION MIS DESAFIOS ------------------------------>
+    <section id="trabajos" class="py-5">
+
+        <div>
+            <div class="section-title">
+                <h2 class="fw-bold text-center text-uppercase mt-2">Mis Desafios</h2>
+            </div>
+            <hr class="bg-white opacity-100 mx-auto w-25">
+        </div>
+
+        <div class="container">
+            <div class="row about">
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0 member">
+                        <img src="./assets/img/iguana_page.png" alt="" class="card-img-top">
+
+                        <div class="card-body">
+                            <h4 class="card-title">Iguana Page</h4>
+                            <p class="card-text fw-light">
+                                Primer desafio desarrollado en el Bootcamp de javascript impartido por la Otec InfoClub
+                                del programa Sence. <br> Se utilizaron elementos basicos de html5 y Css.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0 member">
+                        <img src="./assets/img/suricata.png" alt="" class="card-img-top">
+
+                        <div class="card-body">
+                            <h4 class="card-title">Suricata</h4>
+                            <p class="card-text fw-light">
+                                Segundo desafio desarrollado en el Bootcamp de javascript impartido por la Otec InfoClub
+                                del programa Sence. <br> Se utilizaron elementos basicos de html5, Css , bootstrap5.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4 my-3">
+                    <div class="card border-0 member">
+                        <img src="./assets/img/ricomida.png" alt="" class="card-img-top">
+
+                        <div class="card-body">
+                            <h4 class="card-title">Ricomida</h4>
+                            <p class="card-text fw-light">
+                                Tercer desafio desarrollado en el Bootcamp de javascript impartido por la Otec InfoClub
+                                del programa Sence. <br> Se utilizaron elementos basicos de html5, Css , bootstrap5 y
+                                Javascript(especificamente la libreria Jquery).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------SECCION DE CONTACTO--------------------------->
+
+    <section id="contacto" class="contacto section-bg">
+        <div class=" container ">
+            <div class="section-title ">
+                <h2>Contacto</h2>
+            </div>
+            <div class="row ">
+                <div class="col-md-6 ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.730604950793!2d-71.28037348429241!3d-32.98450858113697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689d407af0c0bff%3A0xa49099d804c5089e!2sLimache!5e0!3m2!1ses-419!2scl!4v1674252331172!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6 mt-3 mt-md-0 ">
+                    <div class="mb-3 ">
+                        <label for="exampleFormControlInput1 " class="form-label ">Nombre</label>
+                        <input type="text " class="form-control " id="exampleFormControlInput1 "
+                            placeholder="tu nombre ">
+                    </div>
+                    <div class="mb-3 ">
+                        <label for="exampleFormControlInput1 " class="form-label ">Correo electronico</label>
+                        <input type="email " class="form-control " id="exampleFormControlInput1 "
+                            placeholder="name@example.com ">
+                    </div>
+                    <div class="mb-3 ">
+                        <label for="exampleFormControlTextarea1 " class="form-label ">comentario</label>
+                        <textarea class="form-control " id="exampleFormControlTextarea1 " rows="3 "></textarea>
+                    </div>
+                    <div class="d-grid ">
+                        <button class="btn btn-primary " type="button ">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="text-center text-white py-1">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-sm-6">
+                    <h4 class="">Fernando De La Barra</h4>
+                </div>
+
+            <div class="col-12 col-sm-6">
+                    <a href="https://github.com/Firthunand"> 
+                        <i class="fab p-3 fa-github-square fa-3x mx-2" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/"> 
+                        <i class="fab p-3 fa-linkedin fa-3x mx-2"  aria-hidden="true"></i>
+                    </a>
+                    <a href="https://twitter.com/"> 
+                        <i class="fab p-3 fa-twitter-square fa-3x mx-2" aria-hidden="true"></i>
+                    </a>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <!--Integrando Jquery 3.6-->
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+    <!--Bootstrap JS 5.3-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+    <!--mis scripts-->
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
